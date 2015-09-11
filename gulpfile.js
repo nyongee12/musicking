@@ -20,7 +20,7 @@ gulp.task('tutorials', function () {
     server: {
       baseDir: 'tutorials'
     },
-    browser: 'google chrome'
+    browser: 'google-chrome'
   });
 
   gulp.watch([
@@ -35,7 +35,7 @@ gulp.task('app', function () {
     server: {
       baseDir: 'app'
     },
-    browser: 'google chrome'
+    browser: 'google-chrome'
   });
 
   gulp.watch([
